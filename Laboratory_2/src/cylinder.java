@@ -13,7 +13,7 @@ public class cylinder{
         return cylinderVolume;
     }
     private void setSurfaceArea(double radius, double height){
-        surfaceArea = 2 * Math.PI * radius * height + 2 * Math.PI * Math.pow(radius, 2);
+        surfaceArea = (2 * Math.PI * radius * height) + (2 * Math.PI * Math.pow(radius, 2));
     }
     private double getSurfaceArea(){
         return surfaceArea;
